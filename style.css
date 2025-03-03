@@ -46,7 +46,7 @@ nav a {
     border-radius: 25px;
     transition: background-color 0.3s ease;
 }
-
+/* This is the hover effect */
 nav a:hover {
     background-color: #AAD2BA;
 }
@@ -159,13 +159,13 @@ img {
     font-size: 1em;
     margin-top: 3%;
 }
-
-.link-hed h1 {
+/* This is to get rid of the underline on the link */
+.link-hed h3 {
     color: #6B8F71;
     text-decoration: none;
 }
 
-/* Contact Page */
+/* Contact Page - in case I wanted to add a more sophisticated form in the future */
 .contact-content {
     padding: 50px 20px;
     text-align: center;
